@@ -59,10 +59,10 @@
 
       <select name="subject" id="subject" required onchange="updateUnits()">
         <option value="" disabled selected>Select Subject</option>
-        <option value="Software Engineering - 1">Software Engineering - 1</option>
-        <option value="NoSQL Database">NoSQL Database</option>
-        <option value="Introduction to Internet of Things (IoT)">Introduction to Internet of Things (IoT)</option>
-        <option value="Internet & Unified Communication Management">Internet & Unified Communication Management</option>
+        <option value="Software Engineering - 2">Software Engineering - 2</option>
+        <option value="Web Application and Penetration Testing">Web Application and Penetration Testing</option>
+        <option value="Introdution to AI-ML">Introdution to AI-ML</option>
+        <option value="Integrated Personallty Development">Integrated Personallty Development</option>
       </select>
 
       <select name="unit" id="unit" required>
@@ -81,11 +81,10 @@
 
   <script>
     const unitOptions = {
-      "Software Engineering - 1": [1, 2],
-      "NoSQL Database": [1, 2],
-      "Introduction to Internet of Things (IoT)": [1, 2],
-      "Analysis of Algorithms": [1, 2],
-      "Internet & Unified Communication Management": [1, 2]
+      "Software Engineering - 2": [1, 2, 3, 4],
+      "Web Application and Penetration Testing": [1, 2, 3, 4],
+      "Introdution to AI-ML": [1, 2, 3, 4],
+      "Integrated Personallty Development": [1, 2, 3, 4]
     };
 
     function updateUnits() {
